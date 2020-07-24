@@ -14,20 +14,21 @@ body {
   top:0;
   align-items: center;
 }
-
+/*================================
+=====   Nav-area */
 .nav-logo{
-  height: 80px;
+  height: 70px;
   padding: 10px 0 0 20px;
 }
 /* Nav-ul */
 .navbar{
   display: inline-block;
   margin: 0;
-  padding-left: 40px;
+  padding-left: 54px;
 }
 /* Nav-li */
 .nav-item{
-  display:inline;
+  display: inline;
   padding: 10px 80px;
 }
 /* Nav-a */
@@ -35,9 +36,10 @@ body {
   text-decoration: none;
   color: white;
   font-size: 25px;
+}
 /*================================
 =====   Top-area */
-}
+
 #Top-area{
   padding: 314px 15px 310px 15px;
   background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
