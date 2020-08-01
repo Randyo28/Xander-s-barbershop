@@ -1,46 +1,78 @@
-
 body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0;
 }
-/*================================
-=====   Header-area */
-.header-sticky{
-  background:#343a40;
+
+.main{
+  display: none;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+/* Loader-section */
+.loader{
+  padding: 200px 500px;
+  font-size: 40px;
+  font-family: 'ZCOOL Kuale', cursive;
+  color: black;
+  opacity:1;
+}
+.loader::after{
+  content: '\2026';
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: center;
+  animation: dots steps(4, end) 2s infinite;
+  width: 0;
+}
+
+@keyframes dots{
+  to{
+      width: 50px;
+  }
+ }
+
+/*   Header-section  */
+.header-sticky {
+  background: #343a40;
   /*background: white;*/
   position: fixed;
   z-index: 1;
-  top:0;
+  top: 0;
   align-items: center;
+  width:100%;
 }
-/*================================
-=====   Nav-area */
-.nav-logo{
+
+/*    Nav-area-section */
+.nav-logo {
   height: 70px;
   padding: 10px 0 0 20px;
 }
+
 /* Nav-ul */
-.navbar{
+.navbar {
   display: inline-block;
   margin: 0;
   padding-left: 54px;
+  font-family: sans-serif;
 }
+
 /* Nav-li */
-.nav-item{
+.nav-item {
   display: inline;
   padding: 10px 80px;
 }
-/* Nav-a */
-.nav-link{
-  text-decoration: none;
-  color: white;
-  font-size: 25px;
-}
-/*================================
-=====   Top-area */
 
-#Top-area{
+/* Nav-a */
+.nav-link {
+  text-decoration: none;
+  font-size: 25px;
+  color:blanchedalmond;
+}
+
+/*  Top-area-section */
+#Top-area {
   padding: 314px 15px 310px 15px;
   background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
   background-size: cover;
@@ -48,158 +80,400 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   backface-visibility: visible;
+  opacity: 0.8;
 }
-.back-photo{
 
-}
-#Top-area .name{
+.back-photo {}
+
+#Top-area .name {
   font-size: 100px;
   text-align: center;
   font-family: cursive;
 }
 
-#Top-area .span-xander{
-  color:white;
+#Top-area .span-xander {
+  color: blanchedalmond;
 }
-#Top-area .span-barber{
-  color: white;
+
+#Top-area .span-barber {
+  color: blanchedalmond;
 }
-/*================================
-=====   Feature-area */
-#feature{
+
+/*  Feature-area-section */
+#feature {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(300px, auto);
   align-items: center;
   background: antiquewhite;
+  font-family: sans-serif;
 }
 
-#feature .box-1{
+#feature .box-1 {
   padding: 20px;
-  background: antiquewhite;
   text-align: center;
   grid-column: 1/4;
+  background: antiquewhite;
 }
-.box-1 .text-1{
+
+.box-1 .text-1 {
   font-size: 30px;
   font-family: cursive;
   font-style: italic;
   padding-bottom: 20px;
 }
-.box-1 .text-2{
+
+.box-1 .text-2 {
   font-size: 50px;
   padding-bottom: 20px;
 }
-.box-1 .text-3{
+
+.box-1 .text-3 {
   font-size: 20px;
-  color:#b59472;
+  color: #b59472;
   margin: 0 291px;
   letter-spacing: 2px;
   font-weight: bold;
 }
 
-#feature .box-2{
+#feature .box-2 {
   padding: 20px;
-  background: white;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-2 .scissor-icon{
 
-}
+#feature .box-2 .scissor-icon {}
 
-#feature .box-2 .p-1{
+#feature .box-2 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-2 .p-2{
+#feature .box-2 .p-2 {
   color: #b59472;
   font-weight: 100;
 }
 
-#feature .box-3{
+#feature .box-3 {
   padding: 20px;
-  background: purple;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-3 .p-1{
+
+#feature .box-3 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-3 .p-2{
+#feature .box-3 .p-2 {
   color: #b59472;
   font-weight: 100;
 }
 
-#feature .box-4{
+#feature .box-4 {
   padding: 20px;
-  background: green;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-4 .p-1{
+
+#feature .box-4 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-4 .p-2{
+#feature .box-4 .p-2 {
   color: #b59472;
   font-weight: 100;
 }
 
-#feature .box-5{
+#feature .box-5 {
   padding: 20px;
-  background: yellow;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-5 .p-1{
+
+#feature .box-5 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-5 .p-2{
+#feature .box-5 .p-2 {
   color: #b59472;
   font-weight: 100;
 }
 
-#feature .box-6{
+#feature .box-6 {
   padding: 20px;
-  background: gray;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-6 .p-1{
+
+#feature .box-6 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-6 .p-2{
+#feature .box-6 .p-2 {
   color: #b59472;
   font-weight: 100;
 }
 
-#feature .box-7{
+#feature .box-7 {
   padding: 20px;
-  background: orange;
+  background: antiquewhite;
   text-align: center;
 }
-#feature .box-7 .p-1{
+
+#feature .box-7 .p-1 {
   margin-top: 20px;
   color: #373c42;
   font-weight: bold;
   padding-bottom: 20px;
 }
 
-#feature .box-7 .p-2{
+#feature .box-7 .p-2 {
   color: #b59472;
   font-weight: 100;
+}
+
+/* Barber-section */
+
+#Barbers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+  align-items: center;
+  background: antiquewhite;
+  font-family: sans-serif;
+}
+
+#Barbers .barber-header{
+  padding: 20px;
+  background: antiquewhite;
+  text-align: center;
+  grid-column: 2/3;
+}
+
+#Barbers .barber-header h1{
+  font-size: 70px;
+  font-family: Lucida Sans Unicode;
+  font-style: oblique;
+}
+
+#Barbers .barber-1{
+  padding: 23px;
+  background: antiquewhite;
+  text-align: center;
+  grid-column: 1/2;
+}
+#Barbers .barber-1 .photo-1{
+  width: 53%;
+}
+
+#Barbers .barber-1 .b-name{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#Barbers .barber-1 h5{
+  margin-top: 10px;
+}
+
+#Barbers .barber-1 p{
+  margin-top: 10px;
+}
+
+#Barbers .barber-2{
+  padding: 19px;
+  background: antiquewhite;
+  text-align: center;
+}
+
+#Barbers .barber-2 .photo-2{
+  width: 52%;
+}
+
+#Barbers .barber-2 .b-name2{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#Barbers .barber-2 h5{
+  margin-top: 10px;
+}
+
+#Barbers .barber-2 p{
+  margin-top: 10px;
+}
+
+#Barbers .barber-3{
+  padding: 25px;
+  background: antiquewhite;
+  text-align: center;
+}
+
+#Barbers .barber-3 .photo-3{
+  width: 63%;
+}
+
+#Barbers .barber-3 .b-name3{
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+#Barbers .barber-3 h5{
+  margin-top: 10px;
+}
+
+#Barbers .barber-3 p{
+  margin-top: 10px;
+}
+
+/* location-section */
+#location{
+  padding: 100px 15px;
+}
+
+ .map{
+  height: 400px;
+  width: 100%;
+}
+/* footer-section */
+#footer{
+  background:#343a40;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(200px, auto);
+  align-items: center;
+}
+#footer .llc{
+  color:white;
+}
+#footer .hours{
+text-align: center;
+color:white;
+}
+
+#footer h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  color:blanchedalmond;
+}
+
+#footer p{
+  font-family: sans-serif;
+  color:blanchedalmond;
+}
+
+#footer .phone{
+text-align: center;
+color:white;
+}
+
+#footer .address{
+text-align: center;
+color:white;
+}
+
+@media only screen and (max-width: 1200px){
+  .nav-item{
+    padding: 6px 48px;
+  }
+
+  .box-1 .text-3{
+    margin: 0 117px;
+  }
+
+
+  }
+@media only screen and (max-width: 900px){
+  body{
+    width: auto;
+  }
+  .nav-logo{
+    padding: 0 0;
+  }
+  .nav-item{
+    padding: 6px 32px;
+  }
+  .nav-link{
+    font-size: 18px;
+  }
+
+  .navbar{
+    padding-left: 1px;
+  }
+ .span-barber {
+
+    padding: 0 67px 0 0px;
+}
+  .span-xander {
+
+    padding: 0 50px 0 0;
+  }
+  .box-1 .text-3{
+    margin: auto;
+  }
+  #Barbers{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    width: 146%;
+  }
+
+  .loader{
+    padding: 200px 200px;
+  }
+
+  .nav-logo{
+    padding: 0 0;
+  }
+
+  .nav-item{
+    padding: 6px 33px;
+  }
+
+  .nav-link{
+    font-size: 18px;
+  }
+
+  .navbar{
+    padding-left: 1px;
+  }
+
+   .span-barber {
+  padding: 0 67px 0 0px;
+  }
+
+  .span-xander {
+    padding: 0 50px 0 0;
+  }
+
+  .box-1 .text-3{
+    margin: auto;
+  }
+
+  #Barbers{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 373px){
+  body{
+    width:100%;
+  }
 }

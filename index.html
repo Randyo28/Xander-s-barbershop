@@ -1,138 +1,198 @@
-<!doctype html>
+<!Doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title>Xander's BarberShop</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/loader.css">
-  <script src="https://kit.fontawesome.com/9556e9f3d2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body>
-  <!--------Loader---------->
-<div class="loader">
-  Loading
-</div>
-
-  <section id="header">
-    <div class="header-sticky">
-      <img class="nav-logo" src="images/Barber-logo.png">
-      <a class="nav-logo-link" href="#"></a>
-      </img>
-      <ul class="navbar">
-        <li class="nav-item">
-          <a class="nav-link" href="#feature">Feature</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Barbers</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Location</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contact</a>
-        </li>
-      </ul>
-    </div>
+  <!--Loader---------->
+  <div class="loader">
+    Loading
+  </div>
+  <section class="main">
+    <!---Header---------->
+    <section id="header">
+      <div class="header-sticky">
+        <img class="nav-logo" src="images/Barber-logo.png">
+        <a class="nav-logo-link" href="#"></a>
+        </img>
+        <ul class="navbar">
+          <li class="nav-item">
+            <a class="nav-link" href="#feature">Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Barbers">Barbers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#location" tabindex="-1" aria-disabled="true">Location</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!---Top-area---------->
+    <section id="Top-area">
+      <div class="back-photo">
+        <h1 class="name">
+          <span class="span-xander">Xander's</span>
+          <span class="span-barber">BarberShop</span>
+        </h1>
+      </div>
+    </section>
+    <!---feature-section---------->
+    <section id="feature">
+      <div class="box-1">
+        <h1 class="text-1">
+          Features
+        </h1>
+        <h1 class="text-2">
+          Our Services & Prices
+        </h1>
+        <p class="text-3">
+          Wash + Cut, $25 . Wash and cut with electric trimmer and / or scissors with a razor finish. Shave, $25 . With blade. Preparation with foam and hot towel. FULLY WASHED & DISINFECT Cape for extra $2
+        </p>
+      </div>
+      <div class="box-2">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/barber-scissors.png" alt="scissor-icon" />
+        </div>
+        <p class="p-1">
+          Hair-Cut
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+      <div class="box-3">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/barber-chair.png" alt="chair-icon" />
+        </div>
+        <p class="p-1">
+          Children's-Cut
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+      <div class="box-4">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/barbershop.png" alt="comb-icon" />
+        </div>
+        <p class="p-1">
+          Hot Towel Shave
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+      <div class="box-5">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/long-beard.png" alt="beard-icon" />
+        </div>
+        <p class="p-1">
+          Beard-Trim
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+      <div class="box-6">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/shampoo.png" alt="shampoo-icon" />
+        </div>
+        <p class="p-1">
+          Shampoo & Wash
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+      <div class="box-7">
+        <div class="icon">
+          <img src="https://img.icons8.com/ios/100/000000/barber-clippers.png" alt="clippers-icon" />
+        </div>
+        <p class="p-1">
+          Shape Up
+        </p>
+        <p class="p-2">
+          $18
+        </p>
+      </div>
+    </section>
+    <!---Barber's-section---------->
+    <section id="Barbers">
+      <div class="barber-header">
+        <h1>Our Barbers</h1>
+      </div>
+      <div class="barber-1">
+        <img class="photo-1" src="https://images.unsplash.com/photo-1582893561942-d61adcb2e534?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="barber photo-1" />
+        <h3 class="b-name">Adeluis</h3>
+        <h5>Hours Available:</h5>
+        <p>
+          Sun-Sat
+        </p>
+        <p>
+          10am-10pm
+        </p>
+      </div>
+      <div class="barber-2">
+        <img class="photo-2" src="https://images.unsplash.com/photo-1595294572864-ddb46d169dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="barber photo-2" />
+        <h3 class="b-name2">Manaury</h3>
+        <h5>Hours Available:</h5>
+        <p>
+          Sun-Sat
+        </p>
+        <p>
+          10am-10pm
+        </p>
+      </div>
+      <div class="barber-3">
+        <img class="photo-3" src="https://images.unsplash.com/photo-1589315876349-1201fd1baaef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="barber photo-3" />
+        <h3 class="b-name3">Jay</h3>
+        <h5>Hours Available:</h5>
+        <p>
+          Sun-Sat
+        </p>
+        <p>
+          10am-10pm
+        </p>
+      </div>
+    </section>
+    <!-- Location -->
+    <section id="location">
+      <div id="map" class="map"></div>
+    </section>
+    <!-- FOOTER -->
+    <footer id="footer">
+      <!--<p class="llc">&copy; 2020 Xander's BarberShop, Inc.</p> -->
+      <div class="hours">
+        <h3>Hours</h3>
+        <p>9:30am - 8pm</p>
+        <p>7 days a week</p>
+      </div>
+      <div class="phone">
+        <h3>Phone</h3>
+        <p>(347) 240-6765</p>
+      </div>
+      <div class="address">
+        <h3>Address</h3>
+        <p>2030 Bedford Ave</p>
+        <p>Brooklyn, NY 11226</p>
+      </div>
+    </footer>
   </section>
-
-  <section id="Top-area">
-    <div class="back-photo">
-      <h1 class="name">
-        <span class="span-xander">Xander's</span>
-        <span class="span-barber">BarberShop</span>
-      </h1>
-    </div>
-  </section>
-
-  <section id="feature">
-    <div class="box-1">
-      <h1 class="text-1">
-        Features
-      </h1>
-      <h1 class="text-2">
-        Our Services & Prices
-      </h1>
-      <p class="text-3">
-        Wash + Cut, $25 . Wash and cut with electric trimmer and / or scissors with a razor finish. Shave, $25 . With blade. Preparation with foam and hot towel. FULLY WASHED & DISINFECT Cape for extra $2
-      </p>
-    </div>
-    <div class="box-2">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/barber-scissors.png" />
-      </div>
-      <p class="p-1">
-        Hair-Cut
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-    <div class="box-3">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/barber-chair.png" />
-      </div>
-      <p class="p-1">
-        Children's-Cut
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-    <div class="box-4">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/barbershop.png" />
-      </div>
-      <p class="p-1">
-        Hot Towel Shave
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-    <div class="box-5">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/long-beard.png" />
-      </div>
-      <p class="p-1">
-        Beard-Trim
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-    <div class="box-6">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/shampoo.png" />
-      </div>
-      <p class="p-1">
-        Shampoo & Wash
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-    <div class="box-7">
-      <div class="scissor-icon">
-        <img src="https://img.icons8.com/ios/100/000000/barber-clippers.png" />
-      </div>
-      <p class="p-1">
-        Shape Up
-      </p>
-      <p class="p-2">
-        $18
-      </p>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p>&copy; 2020 Xander's BarberShop, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
   <script src="js/script.js"></script>
+  <script defer src="ttps://maps.googleapis.com/maps/api/js?key=AIzaSyBADGMRyVdwpFLp-jtKxP9mhtbJ4U42Qxg&callback=initMap&libraries=&v=weekly">
+  </script>
 </body>
 
 </html>
