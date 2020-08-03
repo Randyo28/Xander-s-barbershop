@@ -81,7 +81,8 @@ body {
   -o-background-size: cover;
   background-position: center center;
   backface-visibility: visible;
-  opacity: 1;
+  opacity: 0.9;
+  width: auto;
 }
 
 .back-photo {}
@@ -460,6 +461,10 @@ color:white;
     padding-left: 1px;
   }
 
+  #Top-area {
+    width: 100%;
+  }
+
    .span-barber {
   padding: 0 67px 0 0px;
   }
@@ -490,11 +495,16 @@ color:white;
 
 @media only screen and (max-width: 376px){
   body{
-    width:117%;
+    width:123%;
   }
   .nav-item{
     padding: 6px 3px;
   }
+
+  #Top-area {
+    width: 100%;
+  }
+
   #Top-area .span-xander {
     font-size: 75px;
     padding: 0;
