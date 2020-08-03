@@ -462,7 +462,7 @@ color:white;
   }
 
   #Top-area {
-    width: 93%;
+    width: 100%;
   }
 
    .span-barber {
@@ -495,14 +495,14 @@ color:white;
 
 @media only screen and (max-width: 376px){
   body{
-    width:123%;
+    width: fit-content;
   }
   .nav-item{
     padding: 6px 3px;
   }
 
   #Top-area {
-    width: 94%;
+    width: fit-content;
   }
 
   #Top-area .span-xander {
