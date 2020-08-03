@@ -73,15 +73,15 @@ body {
 
 /*  Top-area-section */
 #Top-area {
-  padding: 314px 15px 310px 15px;
-  background: url( /Users/randyo28/Projects/Barber-website/images/barber-background.jpeg) fixed no-repeat center;
+  padding: 315px 15px ;
+  background: url(https://i.pinimg.com/originals/fd/42/2a/fd422a9a93e822256c8a8442917dd125.jpg) fixed no-repeat center;
   background-size: cover !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
   backface-visibility: visible;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .back-photo {}
