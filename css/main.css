@@ -74,7 +74,7 @@ body {
 /*  Top-area-section */
 #Top-area {
   padding: 315px 15px ;
-  background: url(https://i.imgur.com/jat2qPy.jpg) fixed no-repeat center;
+  background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
   background-size: cover !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -82,7 +82,7 @@ body {
   background-position: center center;
   backface-visibility: visible;
   opacity: 0.9;
-  width: auto;
+
 }
 
 .back-photo {}
@@ -515,4 +515,16 @@ color:white;
 .box-1 .text-3 {
   padding: 0 40px;
 }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and ( max-width: 2000px),
+only screen and (   min--moz-device-pixel-ratio: 2) and ( max-width: 2000px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and ( max-width: 2000px),
+only screen and (        min-device-pixel-ratio: 2) and ( max-width: 2000px),
+only screen and (                min-resolution: 192dpi) and ( max-width: 2000px),
+only screen and (                min-resolution: 2dppx) and ( max-width: 2000px) {
+    #top-area {
+        background:url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    }
 }
