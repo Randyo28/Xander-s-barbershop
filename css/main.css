@@ -437,7 +437,7 @@ color:white;
 
 @media only screen and (max-width: 600px) {
   body{
-    width: 100%;
+    width: 114%;
   }
 
   .loader{
@@ -490,7 +490,7 @@ color:white;
 
 @media only screen and (max-width: 376px){
   body{
-    width:100%;
+    width:117%;
   }
   .nav-item{
     padding: 6px 3px;
