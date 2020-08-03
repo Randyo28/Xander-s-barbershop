@@ -74,8 +74,8 @@ body {
 /*  Top-area-section */
 #Top-area {
   padding: 314px 15px 310px 15px;
-  background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
-  background-size: cover;
+  background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
+  background-size: cover !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
