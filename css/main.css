@@ -75,10 +75,11 @@ body {
 #Top-area {
   padding: 314px 15px 310px 15px;
   background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
-  background-size: cover;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-position: center center;
   backface-visibility: visible;
   opacity: 0.8;
 }
@@ -106,7 +107,7 @@ body {
   grid-auto-rows: minmax(300px, auto);
   align-items: center;
   background: antiquewhite;
-  font-family: sans-serif;
+  font-family: sans-serifs;
 }
 
 #feature .box-1 {
@@ -444,7 +445,7 @@ color:white;
   }
 
   .nav-item{
-    padding: 6px 33px;
+    padding: 6px 19px;
   }
 
   .nav-link{
@@ -472,8 +473,11 @@ color:white;
   }
 }
 
-@media only screen and (max-width: 373px){
+@media only screen and (max-width: 130px){
   body{
     width:100%;
+  }
+  .nav-item{
+    padding: 6px 33px;
   }
 }
