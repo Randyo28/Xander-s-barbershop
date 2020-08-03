@@ -75,7 +75,7 @@ body {
 #Top-area {
   padding: 314px 15px 310px 15px;
   background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat center center fixed;
-  
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -400,13 +400,17 @@ color:white;
   }
 @media only screen and (max-width: 900px){
   body{
-    width: auto;
+    width: 100%;
   }
+  .loader{
+    padding: 200px 300px;
+  }
+
   .nav-logo{
     padding: 0 0;
   }
   .nav-item{
-    padding: 6px 32px;
+    padding: 6px 22px;
   }
   .nav-link{
     font-size: 18px;
@@ -433,11 +437,11 @@ color:white;
 
 @media only screen and (max-width: 600px) {
   body{
-    width: 146%;
+    width: 100%;
   }
 
   .loader{
-    padding: 200px 200px;
+    padding: 200px 120px;
   }
 
   .nav-logo{
@@ -445,7 +449,7 @@ color:white;
   }
 
   .nav-item{
-    padding: 6px 19px;
+    padding: 6px 3px;
   }
 
   .nav-link{
@@ -467,17 +471,38 @@ color:white;
   .box-1 .text-3{
     margin: auto;
   }
+  #Top-area .span-xander {
+    font-size: 75px;
+    padding: 0;
+  }
+  #Top-area .span-barber {
+    font-size: 75px;
+  }
+
+  #feature{
+    display:block;
+  }
 
   #Barbers{
     display: block;
   }
 }
 
-@media only screen and (max-width: 130px){
+@media only screen and (max-width: 376px){
   body{
     width:100%;
   }
   .nav-item{
-    padding: 6px 33px;
+    padding: 6px 3px;
   }
+  #Top-area .span-xander {
+    font-size: 75px;
+    padding: 0;
+}
+#Top-area .span-barber {
+    font-size: 75px;
+}
+.box-1 .text-3 {
+  padding: 0 40px;
+}
 }
