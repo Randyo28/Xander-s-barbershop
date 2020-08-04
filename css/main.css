@@ -103,11 +103,11 @@ body {
 }
 
 #Top-area .span-xander {
-  color: blanchedalmond;
+  color: maroon;
 }
 
 #Top-area .span-barber {
-  color: blanchedalmond;
+  color: maroon;
 }
 
 /*  Feature-area-section */
@@ -536,21 +536,6 @@ color:white;
     background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  center;
     background-size: cover;
 		-webkit-background-size: cover;
-}
-
-@font-face {
-  font-family: system;
-  font-style: normal;
-  font-weight: 300;
-  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
-}
-
-
-body {
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0;
-  font-family: "system";
 }
 
 .loader{
