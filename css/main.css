@@ -517,14 +517,11 @@ color:white;
 }
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 376px),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 376px),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 376px),
-only screen and (        min-device-pixel-ratio: 2)      and (max-width: 376px),
-only screen and (                min-resolution: 192dpi) and (max-width: 376px),
-only screen and (                min-resolution: 2dppx)  and (max-width: 376px){
+@media only screen and (-webkit-min-device-pixel-ratio: 2)
+{
   #Top-area {
-    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
-    background-size: 200px;
+    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  center;
+    background-size: cover;
+		-webkit-background-size: cover;
+}
 }
