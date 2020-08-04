@@ -537,6 +537,22 @@ color:white;
     background-size: cover;
 		-webkit-background-size: cover;
 }
+
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "system";
+}
+
 .loader{
   font-family: 'ZCOOL Kuale', LucidaGrandeUI ;
 
