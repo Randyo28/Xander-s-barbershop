@@ -497,8 +497,10 @@ color:white;
   body{
     width: fit-content;
   }
+  .loader{
+    padding: 200px 80px;
+  }
 
-  
   .nav-item{
     padding: 6px 3px;
   }
