@@ -497,6 +497,11 @@ color:white;
   body{
     width: fit-content;
   }
+
+  .loader{
+    padding: 200px 80px;
+  }
+
   .nav-item{
     padding: 6px 3px;
   }
@@ -520,8 +525,9 @@ color:white;
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
 {
   #Top-area {
-    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  center;
+    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  center fixed;
     background-size: cover;
 		-webkit-background-size: cover;
+    font-style: oblique;
 }
 }
