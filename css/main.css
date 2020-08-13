@@ -124,7 +124,7 @@ body {
     0%{ color: blue;}
 
     100% { color: maroon;}
-  */ }
+  */}
 
 #Top-area .span-barber {
   color: maroon;
@@ -161,7 +161,7 @@ body {
 
 .box-1 .text-3 {
   font-size: 20px;
-  color: #b59472;
+  color: black;
   margin: 0 291px;
   letter-spacing: 2px;
   font-weight: bold;
@@ -183,7 +183,7 @@ body {
 }
 
 #feature .box-2 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -201,7 +201,7 @@ body {
 }
 
 #feature .box-3 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -219,7 +219,7 @@ body {
 }
 
 #feature .box-4 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -237,7 +237,7 @@ body {
 }
 
 #feature .box-5 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -255,7 +255,7 @@ body {
 }
 
 #feature .box-6 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -273,7 +273,7 @@ body {
 }
 
 #feature .box-7 .p-2 {
-  color: #b59472;
+  color: maroon;
   font-weight: 100;
 }
 
@@ -405,6 +405,7 @@ color:white;
 #footer p{
   font-family: sans-serif;
   color:blanchedalmond;
+  margin-top: 4px;
 }
 
 #footer .phone{
@@ -541,7 +542,7 @@ color:white;
 
   #Top-area .span-xander {
     font-size: 75px;
-    padding: 0;
+    padding-right: 69px;
 }
 #Top-area .span-barber {
     font-size: 75px;
