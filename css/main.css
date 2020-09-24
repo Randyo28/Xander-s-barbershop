@@ -64,8 +64,9 @@ body {
 
 /* Nav-ul */
 .navbar {
-  display: inline-block;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   padding-left: 54px;
   font-family: sans-serif;
 }
@@ -379,7 +380,7 @@ body {
 /* location-section */
 #location{
   padding: 100px 15px;
-  background: linear-gradient(363deg, black, transparent);
+  background: linear-gradient(368deg, black, transparent);
 }
 
  .map{
@@ -475,6 +476,10 @@ color:white;
   #Barbers{
     display: block;
   }
+  #footer .design {
+    grid-column: 2/3;
+    padding-left:34px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -532,6 +537,10 @@ color:white;
   #Barbers{
     display: block;
   }
+  #footer .design {
+    grid-column: 2/3;
+    padding-left:20px;
+  }
 
 }
 
@@ -560,6 +569,11 @@ color:white;
 }
 .box-1 .text-3 {
   padding: 0 40px;
+}
+
+#footer .design {
+  grid-column: 2/3;
+  padding-left:22px;
 }
 
 }
