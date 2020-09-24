@@ -5,52 +5,55 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title>Xander's BarberShop</title>
-  <link rel="stylesheet" href="css/reset.css"/>
+  <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NRJDGD6S8S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NRJDGD6S8S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-NRJDGD6S8S');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-NRJDGD6S8S');
+  </script>
 </head>
 
 <body>
   <!--Loader---------->
-  <div class="loader">
+  <!-- <div class="loader">
     Loading
-  </div>
+  </div> -->
   <section class="main">
     <!---Header---------->
     <section id="header">
       <div class="header-sticky">
-        <a class="nav-logo-link"  href="#Top-area">
-          <img class="nav-logo"   src="images/Barber-logo-black.png"> </img>
+        <a class="nav-logo-link" href="#Top-area">
+          <img class="nav-logo" src="images/Barber-logo-black.png"> </img>
         </a>
         <ul id="navbar">
           <li class="nav-item">
-            <a class="nav-link service"  href="#feature">Services</a>
+            <a class="nav-link service" href="#feature">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link barber"  href="#Barbers">Barbers</a>
+            <a class="nav-link barber" href="#Barbers">Barbers</a>
           </li>
           <li class="nav-item">
             <a class="nav-link location" href="#location" tabindex="-1" aria-disabled="true">Location</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link contact" href="#footer" tabindex="-1" aria-disabled="true" >Contact</a>
+            <a class="nav-link contact" href="#footer" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
         </ul>
         <a href="javascript:void(0);" class="icon-hamburger" onclick="navBar()">
-    <i class="fa fa-bars"></i>
-  </a>
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </section>
     <!---Top-area---------->
@@ -190,14 +193,14 @@
       <!--<p class="llc">&copy; 2020 Xander's BarberShop, Inc.</p> -->
       <div class="hours">
         <h3>Hours</h3>
-      <div class="time-wkday">
-        <p>Monday-Saturday:</p>
-        <p>10am - 7pm</p>
-      </div>
-      <div class="time-wkend">
-        <p>Sundays:</p>
-        <p>10am - 4pm</p>
-      </div>
+        <div class="time-wkday">
+          <p>Monday-Saturday:</p>
+          <p>10am - 7pm</p>
+        </div>
+        <div class="time-wkend">
+          <p>Sundays:</p>
+          <p>10am - 4pm</p>
+        </div>
       </div>
       <div class="phone">
         <div class="phone-div">
@@ -214,15 +217,16 @@
       </div>
       <div class="llc">
         <p class="Inc">&copy; 2020 Xander's BarberShop, Inc.</p>
-        </div>
+      </div>
       <div class="design">
         <p class="RO">Design by <span class="randy">Randy</span> <span class="ortiz">Ortiz</span></p>
       </div>
     </footer>
   </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <!-- <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADGMRyVdwpFLp-jtKxP9mhtbJ4U42Qxg&callback=initMap&libraries=&v=weekly"></script> -->
+  <script src="js/gsap.js"></script>
   <script src="js/script.js"></script>
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBADGMRyVdwpFLp-jtKxP9mhtbJ4U42Qxg&callback=initMap&libraries=&v=weekly">
-  </script>
 </body>
 
 </html>
