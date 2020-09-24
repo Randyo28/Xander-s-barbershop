@@ -65,7 +65,7 @@ body {
 /* Nav-ul */
 .navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   padding-left: 54px;
   font-family: sans-serif;
@@ -401,6 +401,10 @@ body {
 #footer .hours{
 text-align: center;
 color:white;
+display:inline-block;
+}
+#footer .hours .time-wkday{
+  margin-bottom: 12px;
 }
 
 #footer h3{
@@ -420,14 +424,23 @@ color:white;
 text-align: center;
 color:white;
 }
+#footer .phone .phone-div{
+  padding-bottom: 48px;
+}
 
 #footer .address{
 text-align: center;
 color:white;
 }
+#footer .address .address-div{
+  padding-bottom: 29px;
+}
 #footer .design {
   grid-column: 2/3;
   padding-left:103px;
+}
+#footer .design .design-name{
+  padding: 10px 32px;
 }
 
 @media only screen and (max-width: 1200px){
@@ -553,7 +566,7 @@ color:white;
   }
 
   .nav-item{
-    padding: 6px 3px;
+    padding: 6px 3px !important;
   }
 
   #Top-area {
