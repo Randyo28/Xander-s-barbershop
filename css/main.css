@@ -70,7 +70,6 @@ body {
   width: 100%;
   padding-left: 54px;
   font-family: sans-serif;
-  display: block;
 }
 
 /* Nav-li */
@@ -407,9 +406,7 @@ body {
   grid-auto-rows: minmax(100px, auto);
   align-items: center;
 }
-#footer .llc{
-  color:white;
-}
+
 #footer .hours{
 text-align: center;
 color:white;
@@ -447,13 +444,25 @@ color:white;
 #footer .address .address-div{
   padding-bottom: 29px;
 }
-#footer .design {
+#footer .llc{
   grid-column: 2/3;
-  padding-left:103px;
 }
-#footer .design .design-name{
-  padding: 10px 32px;
+#footer .Inc{
+  padding-left: 75px;
 }
+#footer .design {
+  grid-column: 3/3;
+}
+#footer .RO{
+  padding-left: 107px;
+}
+#footer .randy{
+color: dodgerblue;
+}
+#footer .ortiz{
+color: mediumaquamarine;
+}
+
 
 @media only screen and (max-width: 1200px){
   .nav-item{
@@ -501,9 +510,15 @@ color:white;
   #Barbers{
     display: block;
   }
+  #footer .Inc{
+    padding-left: 5px;
+  }
   #footer .design {
-    grid-column: 2/3;
+    grid-column: 3/3;
     padding-left:34px;
+  }
+  #footer .RO{
+    padding-left: 38px;
   }
 }
 
@@ -514,6 +529,9 @@ color:white;
 
   .loader{
     padding: 200px 120px;
+  }
+  .header-sticky{
+    display:block;
   }
 
   .nav-logo{
@@ -529,7 +547,15 @@ color:white;
   }
 
   #navbar{
-    padding-left: 1px;
+    display:none;
+    padding: 10px 0;
+  }
+   .icon-hamburger{
+    display:block;
+    font-size: 45px;
+  }
+  .icon-hamburger:hover{
+    color: red;
   }
 
   #Top-area {
@@ -562,9 +588,15 @@ color:white;
   #Barbers{
     display: block;
   }
+  #footer .Inc{
+    padding-left: 5px;
+  }
   #footer .design {
-    grid-column: 2/3;
+    grid-column: 3/3;
     padding-left:20px;
+  }
+  #footer .RO{
+    padding-left: 38px;
   }
 
 }
@@ -581,10 +613,11 @@ color:white;
   }
 
   .nav-item{
-    padding: 6px 3px !important;
+    padding: 6px 22px !important;
   }
   #navbar{
     display:none;
+    padding: 10px 0;
   }
    .icon-hamburger{
     display:block;
@@ -608,15 +641,15 @@ color:white;
 .box-1 .text-3 {
   padding: 0 40px;
 }
-
+#footer .Inc{
+  padding-left: 5px;
+}
 #footer .design {
-  grid-column: 2/3;
-  padding-left:22px;
+  grid-column: 3/3;
 }
-#footer .design .design-name {
-    padding: 10px 14px;
+#footer .RO{
+  padding-left: 38px;
 }
-
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
