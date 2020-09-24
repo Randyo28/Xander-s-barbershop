@@ -588,6 +588,9 @@ color:white;
   grid-column: 2/3;
   padding-left:22px;
 }
+#footer .design .design-name {
+    padding: 10px 14px;
+}
 
 }
 
