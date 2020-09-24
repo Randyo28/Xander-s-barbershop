@@ -45,18 +45,19 @@ body {
 
 /*   Header-section  */
 .header-sticky {
-  background: #343a40;
+  background: black;
   /*background: white;*/
   position: fixed;
   z-index: 1;
   top: 0;
   align-items: center;
   width:100%;
+  display: flex;
 }
 
 /*    Nav-area-section */
 .nav-logo {
-  height: 70px;
+  height: 60px;
   padding: 10px 0 0 20px;
 }
 
@@ -79,7 +80,7 @@ body {
 .nav-link {
   text-decoration: none;
   font-size: 25px;
-  color:blanchedalmond;
+  color:white;
 }
 .service:hover{
   color:red;
@@ -97,7 +98,8 @@ body {
 /*  Top-area-section */
 #Top-area {
   padding: 315px 15px ;
-  background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
+  /* background-color:rgba(92, 62, 235, 0.9); */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -105,8 +107,8 @@ body {
   background-position: center center;
   backface-visibility: visible;
   opacity: 0.9;
-
 }
+/* https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 */
 
 #Top-area .name {
   font-size: 100px;
@@ -116,7 +118,8 @@ body {
 
 
 #Top-area .span-xander {
-  color: maroon;
+  color: white;
+  text-shadow: 1px 1px 10px black;
   /*animation: heading 2s ease-in-out 3 alternate forwards;
   }
 
@@ -128,6 +131,7 @@ body {
 
 #Top-area .span-barber {
   color: maroon;
+  text-shadow: 1px 1px 10px indianred;
 }
 
 /*  Feature-area-section */
@@ -136,7 +140,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(300px, auto);
   align-items: center;
-  background: antiquewhite;
+  background: linear-gradient(45deg, grey, transparent);
   font-family: sans-serifs;
 }
 
@@ -144,7 +148,6 @@ body {
   padding: 20px;
   text-align: center;
   grid-column: 1/4;
-  background: antiquewhite;
 }
 
 .box-1 .text-1 {
@@ -169,7 +172,7 @@ body {
 
 #feature .box-2 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -189,7 +192,7 @@ body {
 
 #feature .box-3 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -207,7 +210,7 @@ body {
 
 #feature .box-4 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -225,7 +228,7 @@ body {
 
 #feature .box-5 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -243,7 +246,7 @@ body {
 
 #feature .box-6 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -261,7 +264,7 @@ body {
 
 #feature .box-7 {
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
@@ -284,13 +287,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(200px, auto);
   align-items: center;
-  background: antiquewhite;
+  background: linear-gradient(502deg, grey, transparent);
   font-family: sans-serif;
 }
 
 #Barbers .barber-header{
   padding: 20px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
   grid-column: 2/3;
 }
@@ -303,12 +306,13 @@ body {
 
 #Barbers .barber-1{
   padding: 23px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
   grid-column: 1/2;
 }
 #Barbers .barber-1 .photo-1{
   width: 69%;
+  box-shadow: 4px 3px 26px black;
 }
 
 #Barbers .barber-1 .b-name{
@@ -326,12 +330,13 @@ body {
 
 #Barbers .barber-2{
   padding: 19px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
 #Barbers .barber-2 .photo-2{
   width: 71%;
+  box-shadow: 4px 3px 26px black;
 }
 
 #Barbers .barber-2 .b-name2{
@@ -349,12 +354,13 @@ body {
 
 #Barbers .barber-3{
   padding: 27px;
-  background: antiquewhite;
+  /* background: antiquewhite; */
   text-align: center;
 }
 
 #Barbers .barber-3 .photo-3{
   width: 75%;
+  box-shadow: 4px 3px 26px black;
 }
 
 #Barbers .barber-3 .b-name3{
@@ -373,6 +379,7 @@ body {
 /* location-section */
 #location{
   padding: 100px 15px;
+  background: linear-gradient(363deg, black, transparent);
 }
 
  .map{
@@ -381,10 +388,10 @@ body {
 }
 /* footer-section */
 #footer{
-  background:#343a40;
+  background:black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: minmax(100px, auto);
   align-items: center;
 }
 #footer .llc{
@@ -399,12 +406,12 @@ color:white;
   font-size: 25px;
   margin-bottom: 10px;
   font-family: sans-serif;
-  color:blanchedalmond;
+  color:white;
 }
 
 #footer p{
   font-family: sans-serif;
-  color:blanchedalmond;
+  color:white;
   margin-top: 4px;
 }
 
@@ -416,6 +423,10 @@ color:white;
 #footer .address{
 text-align: center;
 color:white;
+}
+#footer .design {
+  grid-column: 2/3;
+  padding-left:103px;
 }
 
 @media only screen and (max-width: 1200px){
