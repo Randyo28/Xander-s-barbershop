@@ -96,7 +96,7 @@ body {
 .contact:hover{
  color:red;
 }
- .icon-hamburger{
+ /* .icon-hamburger{
   position: absolute;
   display: none;
   top:0;
@@ -104,7 +104,8 @@ body {
   font-size: 55px;
   padding: 5px 22px;
   color:white;
-}
+} */
+
 
 
 /*  Top-area-section */
@@ -556,12 +557,47 @@ color: mediumaquamarine;
     display:none;
     padding: 10px 0;
   }
-   .icon-hamburger{
+   /* .icon-hamburger{
     display:block;
     font-size: 45px;
   }
   .icon-hamburger:hover{
     color: red;
+  } */
+  .ham-container {
+    position: absolute;
+    display: block;
+    top:0;
+    right:0;
+    font-size: 55px;
+    padding: 5px 22px;
+    color:white;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    background-color: red;
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    background-color: red;
   }
 
   #Top-area {
@@ -625,12 +661,47 @@ color: mediumaquamarine;
     display:none;
     padding: 10px 0;
   }
-   .icon-hamburger{
+   /* .icon-hamburger{
     display:block;
     font-size: 45px;
   }
   .icon-hamburger:hover{
     color: red;
+  } */
+  .ham-container {
+    position: absolute;
+    display: block;
+    top:0;
+    right:0;
+    font-size: 55px;
+    padding: 5px 22px;
+    color:white;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+    background-color: red;
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+    background-color: red;
   }
 
   #Top-area {

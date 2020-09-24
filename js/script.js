@@ -18,11 +18,18 @@
     function navBar() {
       var x = document.getElementById("navbar");
       if (x.style.display === "flex") {
+          x.classList.toggle("change");
           x.style.display = "none";
   } else {
           x.style.display = "flex";
           }
         }
+
+
+          //Hamburger-transition
+        function myFunction(x) {
+  x.classList.toggle("change");
+}
 
             //Google-map//
 

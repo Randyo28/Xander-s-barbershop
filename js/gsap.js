@@ -17,7 +17,7 @@ tl.fromTo('#navbar',{
 '>-3'
 );
 
-tl.fromTo('.icon-hamburger',{
+tl.fromTo('.ham-container',{
   x: 150,
 },{
   x:0,
