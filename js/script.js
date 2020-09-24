@@ -13,14 +13,20 @@ function init() {
 
 init();
 
-//let map;
+            //Nav-bar//
 
-//function initMap() {
-  //map = new google.maps.Map(document.getElementById("map"), {
-  //  center: { lat: 40.655270, lng: -73.956490 },
-    //zoom: 16
-  //});
-//}
+    function navBar() {
+      var x = document.getElementById("navbar");
+      if (x.style.display === "block") {
+          x.style.display = "none";
+  } else {
+          x.style.display = "block";
+          }
+        }
+
+            //Google-map//
+
+
 function initMap() {
   // The location of Uluru
   var xander = {lat: 40.655270, lng: -73.956490};
