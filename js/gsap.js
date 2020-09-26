@@ -31,17 +31,10 @@ tl.fromTo('.name',{
 },{
   opacity:1,
 },
-'>-.3'
+'>-.2'
 );
 
-tl.fromTo('.ham-container',{
-  x: 150,
-},{
-  x:0,
-  duration:3,
-},
-'>-3.5'
-);
+
 
 // tl.fromTo('.barbers',{
 //   opacity:0,
