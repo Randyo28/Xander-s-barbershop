@@ -53,28 +53,51 @@ tl.fromTo('.ham-container',{
 // });
 
 /* Scroll  Animations */
-const tlPhotoScroll = new gsap.timeline()
+if(screen.width < 480) {
+  const tlPhotoScroll = new gsap.timeline()
 
-// function debugPercentage() {
-//   console.log(tlServicesScroll.progress());
-// }
 tlPhotoScroll.fromTo('.barbers', {
   opacity:0,
   y: 50,
 }, {
   opacity:1,
   y: 0,
-  stagger: 0.5,
+  stagger: 1,
 });
-const serviceElement = document.querySelector('.barbers');
+const barberElement = document.querySelector('.barbers');
 
 let homeController = new ScrollMagic.Controller();
 
 let serviceScene = new ScrollMagic.Scene({
   triggerElement: '.barbers',
   triggerHook: 1,
-  duration: 800
+  duration:1800
 })
 .setTween(tlPhotoScroll)
-.addIndicators()
+// .addIndicators()
 .addTo(homeController)
+}
+  else{
+    const tlPhotoScroll = new gsap.timeline()
+
+  tlPhotoScroll.fromTo('.barbers', {
+    opacity:0,
+    y: 50,
+  }, {
+    opacity:1,
+    y: 0,
+    stagger: 0.5,
+  });
+  const barberElement = document.querySelector('.barbers');
+
+  let homeController = new ScrollMagic.Controller();
+
+  let serviceScene = new ScrollMagic.Scene({
+    triggerElement: '.barbers',
+    triggerHook: 1,
+    duration: 800 //1800
+  })
+  .setTween(tlPhotoScroll)
+  // .addIndicators()
+  .addTo(homeController)
+  }
