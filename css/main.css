@@ -157,6 +157,7 @@ body {
   font-family: sans-serifs;
 }
 
+
 #feature .box-1 {
   padding: 20px;
   text-align: center;
@@ -262,6 +263,16 @@ body {
   /* background: antiquewhite; */
   text-align: center;
 }
+/* #feature .box-6:after{
+  content: "";
+    display: block;
+    width: 63%;
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 54px;
+    left: 76px;
+} */
 
 #feature .box-6 .p-1 {
   margin-top: 20px;
@@ -486,9 +497,9 @@ color: mediumaquamarine;
   body{
     width: 100%;
   }
-  .loader{
+  /* .loader{
     padding: 200px 300px;
-  }
+  } */
 
   .nav-logo{
     padding: 0 0;
@@ -517,6 +528,17 @@ color: mediumaquamarine;
   #Barbers{
     display: block;
   }
+  #Barbers .barber-1{
+    padding: 23px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  #Barbers .barber-2{
+    padding: 23px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
   #footer .Inc{
     padding-left: 5px;
   }
@@ -534,9 +556,9 @@ color: mediumaquamarine;
     width: fit-content;
   }
 
-  .loader{
+  /* .loader{
     padding: 200px 120px;
-  }
+  } */
   .header-sticky{
     display:block;
   }
@@ -601,7 +623,7 @@ color: mediumaquamarine;
   }
 
   #Top-area {
-    width: 100%;
+    width: fit-content;
   }
 
    .span-barber {
@@ -630,6 +652,16 @@ color: mediumaquamarine;
   #Barbers{
     display: block;
   }
+  #Barbers .barber-1{
+    padding: 23px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  #Barbers .barber-2{
+    padding: 23px;
+    margin: 20px 0;
+    text-align: center;
+  }
   #footer .Inc{
     padding-left: 5px;
   }
@@ -647,9 +679,9 @@ color: mediumaquamarine;
   body{
     width: fit-content;
   }
-  .loader{
+  /* .loader{
     padding: 200px 34px;
-  }
+  } */
   .header-sticky{
     display:block;
   }
@@ -718,6 +750,21 @@ color: mediumaquamarine;
 .box-1 .text-3 {
   padding: 0 40px;
 }
+
+#Barbers{
+  display: block;
+}
+#Barbers .barber-1{
+  padding: 23px;
+  margin: 20px 0;
+  text-align: center;
+}
+#Barbers .barber-2{
+  padding: 23px;
+  margin: 20px 0;
+  text-align: center;
+}
+
 #footer .Inc{
   padding-left: 5px;
 }
