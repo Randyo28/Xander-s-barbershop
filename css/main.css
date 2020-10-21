@@ -779,7 +779,7 @@ color: mediumaquamarine;
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
 {
   #Top-area {
-    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  center;
+    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed  center;
     background-size: cover;
 		-webkit-background-size: cover;
 }
