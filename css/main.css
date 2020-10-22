@@ -70,7 +70,7 @@ body {
   justify-content: space-evenly;
   width: 100%;
   padding-left: 54px;
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Nav-li */
@@ -113,7 +113,6 @@ body {
 #Top-area {
   padding: 315px 15px ;
   background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
-  background-color:rgba(92, 62, 235, 0.9);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -121,6 +120,7 @@ body {
   background-position: center center;
   backface-visibility: visible;
   opacity: 0.9;
+  box-shadow: 0px 7px 25px black;
 }
 /* https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 */
 
@@ -145,7 +145,7 @@ body {
 
 #Top-area .span-barber {
   color: maroon;
-  text-shadow: 1px 1px 10px indianred;
+  text-shadow: 1px 1px 3px indianred;
 }
 
 /*  Feature-area-section */
@@ -782,7 +782,8 @@ color: mediumaquamarine;
   #Top-area {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat  center;
     background-size: cover;
-		-webkit-background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 0px 7px 25px black;
 }
 
 .loader{
