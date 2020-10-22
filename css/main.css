@@ -86,15 +86,19 @@ body {
   color:white;
 }
 .service:hover{
+  border-bottom: 1px solid white;
   color:red;
 }
 .barber:hover{
+  border-bottom: 1px solid white;
  color:red;
 }
 .location:hover{
+  border-bottom: 1px solid white;
  color:red;
 }
 .contact:hover{
+  border-bottom: 1px solid white;
  color:red;
 }
  /* .icon-hamburger{
