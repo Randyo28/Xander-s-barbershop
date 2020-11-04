@@ -781,7 +781,7 @@ color: mediumaquamarine;
 }
 }
 
-@media only screen and (max-device-width:480px), 
+@media only screen and (max-device-width:375px), 
 only screen and (-webkit-min-device-pixel-ratio: 2)
 {
   #Top-area {
