@@ -67,7 +67,7 @@ let serviceScene = new ScrollMagic.Scene({
   duration:1800
 })
 .setTween(tlPhotoScroll)
-.addIndicators()
+// .addIndicators()
 .addTo(homeController)
 }
   else{
