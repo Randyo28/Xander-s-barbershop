@@ -782,8 +782,8 @@ color: mediumaquamarine;
 }
 
 @media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi)
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi)
 {
   #Top-area {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat  center;
