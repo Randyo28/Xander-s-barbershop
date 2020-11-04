@@ -784,17 +784,10 @@ color: mediumaquamarine;
 @media only screen and (-webkit-min-device-pixel-ratio: 2)
 {
   #Top-area {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat  center;
-    position: relative;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  transform: translateZ(0);
-  will-change: transform;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat  center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    box-shadow: 0px 7px 25px black;
 }
 
 .loader{
