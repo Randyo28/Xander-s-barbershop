@@ -67,7 +67,7 @@ let serviceScene = new ScrollMagic.Scene({
   duration:1800
 })
 .setTween(tlPhotoScroll)
-// .addIndicators()
+.addIndicators()
 .addTo(homeController)
 }
   else{
@@ -79,7 +79,7 @@ let serviceScene = new ScrollMagic.Scene({
   }, {
     opacity:1,
     y: 0,
-    stagger: 0.5,
+    stagger: 0.2,
   });
   const barberElement = document.querySelector('.barbers');
 
@@ -94,3 +94,18 @@ let serviceScene = new ScrollMagic.Scene({
   // .addIndicators()
   .addTo(homeController)
   }
+
+
+// gsap.registerPlugin(ScrollTrigger);
+
+// gsap.from('.barbers', {
+//   x:1400,
+//   opacity:0,
+//   scrollTrigger: {
+//     trigger: ".barbers",
+//     start: "top center",
+//     end: "top 100px",
+//     scrub: true,
+//     // markers: true,
+//   }
+// }) 
