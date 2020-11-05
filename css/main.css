@@ -790,14 +790,14 @@ and (-webkit-device-pixel-ratio : 3)
 
   #Top-area {
     background: url("/images/bg-iphone.png")  no-repeat  center center fixed; 
-    -webkit-background-size: 100%; 
-    -moz-background-size: 100%; 
-    -o-background-size: 100%; 
-    background-size: 100%; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: cover; 
+    -webkit-background-size: 100% !important; 
+    -moz-background-size: 100% !important; 
+    -o-background-size: 100% !important; 
+    background-size: 100% !important; 
+    -webkit-background-size: cover !important; 
+    -moz-background-size: cover !important; 
+    -o-background-size: cover !important; 
+    background-size: cover !important; 
     box-shadow: 0px 7px 25px black;
 }
 
