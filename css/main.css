@@ -787,12 +787,9 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 {
 
-  .fixed{
-    min-height: 100vh;
-  }
 
   #Top-area {
-    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center center fixed; 
+    background: url("/images/bg-iphone.png")  no-repeat  center center fixed; 
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
