@@ -789,10 +789,9 @@ and (-webkit-device-pixel-ratio : 3)
   #Top-area {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     -webkit-background-size: cover;
     box-shadow: 0px 7px 25px black;
-    min-height: 500px;
 }
 
 .loader{
