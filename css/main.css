@@ -789,14 +789,14 @@ and (-webkit-device-pixel-ratio : 3)
 
 
   #Top-area {
-    background: url("/images/bg-iphone.png")  no-repeat  center; 
+    background: url("/images/bg-iphone.png") fixed no-repeat; 
     position: relative;
     -webkit-background-size: cover !important; 
     -moz-background-size: cover !important; 
     -o-background-size: cover !important; 
     background-size: cover !important; 
-    background-attachment: fixed;
     box-shadow: 0px 7px 25px black;
+    z-index: 9;
 }
 
 .loader{
