@@ -742,7 +742,12 @@ color: mediumaquamarine;
   }
 
   #Top-area {
-    width: fit-content;
+    /* width: fit-content; */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center;
+    background-size: cover;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    box-shadow: 0px 7px 25px black;
   }
 
   #Top-area .span-xander {
@@ -786,13 +791,13 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 {
-  #Top-area {
+  /* #Top-area {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center;
     background-size: cover;
     background-attachment: scroll;
     -webkit-background-size: cover;
     box-shadow: 0px 7px 25px black;
-}
+} */
 
 .loader{
   font-family: 'ZCOOL Kuale', LucidaGrandeUI ;
