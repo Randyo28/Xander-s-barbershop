@@ -786,26 +786,22 @@ and (min-device-width : 375px)
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3)
 {
+
+  .fixed{
+    min-height: 100vh;
+  }
+
   #Top-area {
-    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center;
-    background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-size: cover;
+    background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center center fixed; 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
     box-shadow: 0px 7px 25px black;
-}
-  #Top-area:after{
-  content:"";
-  position:fixed; /* stretch a fixed position to the whole screen */
-  top:0;
-  height:100vh; /* fix for mobile browser address bar appearing disappearing */
-  left:0;
-  right:0;
-  z-index:-1; /* needed to keep in the background */
-  background: url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  no-repeat  center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .loader{
