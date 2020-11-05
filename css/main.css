@@ -789,7 +789,7 @@ and (-webkit-device-pixel-ratio : 3)
 
 
   #Top-area {
-    background: url("/images/bg-iphone.png")  no-repeat  center center fixed; 
+    background: url("/images/bg-iphone.png")  no-repeat  center center fixed !important; 
     -webkit-background-size: 100% !important; 
     -moz-background-size: 100% !important; 
     -o-background-size: 100% !important; 
