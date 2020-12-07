@@ -88,18 +88,22 @@ body {
 .service:hover{
   border-bottom: 1px solid white;
   color:red;
+  transition: all 0.5s ease;
 }
 .barber:hover{
   border-bottom: 1px solid white;
  color:red;
+ transition: all 0.5s ease;
 }
 .location:hover{
   border-bottom: 1px solid white;
  color:red;
+ transition: all 0.5s ease;
 }
 .contact:hover{
   border-bottom: 1px solid white;
  color:red;
+ transition: all 0.5s ease;
 }
  /* .icon-hamburger{
   position: absolute;
@@ -115,7 +119,7 @@ body {
 
 /*  Top-area-section */
 #Top-area {
-  padding: 315px 15px ;
+  padding: 360px 15px ;
   background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) fixed no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
@@ -342,20 +346,42 @@ body {
 #Barbers .barber-1 .photo-1{
   width: 69%;
   box-shadow: 4px 3px 26px black;
+  border-radius: 25px;
 }
 
-#Barbers .barber-1 .b-name{
-  margin-top: 10px;
-  font-size: 30px;
+#Barbers  .b-name{
+  margin-top: 30px;
+  font-size: 50px;
+  text-shadow: 2px 6px 9px rgb(46, 42, 42);
 }
 
-#Barbers .barber-1 h5{
+#Barbers  h5{
+  margin-top: 25px;
+  font-size:25px;
+}
+
+#Barbers  p{
   margin-top: 10px;
 }
 
-#Barbers .barber-1 p{
-  margin-top: 10px;
+#Barbers .barberHours{
+  background: grey;
 }
+
+#Barbers .btn{
+  background-color: black;
+    color: white;
+    margin-top: 35px;
+    width: 23%;
+    padding: 8px;
+    border-radius: 7%;
+    border: none;
+    outline: none;
+    height: 44px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
 
 #Barbers .barber-2{
   padding: 19px;
@@ -366,20 +392,9 @@ body {
 #Barbers .barber-2 .photo-2{
   width: 71%;
   box-shadow: 4px 3px 26px black;
+  border-radius: 25px;
 }
 
-#Barbers .barber-2 .b-name2{
-  margin-top: 10px;
-  font-size: 30px;
-}
-
-#Barbers .barber-2 h5{
-  margin-top: 10px;
-}
-
-#Barbers .barber-2 p{
-  margin-top: 10px;
-}
 
 #Barbers .barber-3{
   padding: 27px;
@@ -390,19 +405,7 @@ body {
 #Barbers .barber-3 .photo-3{
   width: 75%;
   box-shadow: 4px 3px 26px black;
-}
-
-#Barbers .barber-3 .b-name3{
-  margin-top: 10px;
-  font-size: 30px;
-}
-
-#Barbers .barber-3 h5{
-  margin-top: 10px;
-}
-
-#Barbers .barber-3 p{
-  margin-top: 10px;
+  border-radius: 25px;
 }
 
 /* location-section */
@@ -756,6 +759,117 @@ color: mediumaquamarine;
   padding: 0 40px;
 }
 
+#feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(300px, auto);
+  align-items: center;
+  background: linear-gradient(45deg, grey, transparent);
+  font-family: sans-serifs;
+}
+
+
+#feature .box-1 {
+  padding: 20px;
+  text-align: center;
+  grid-column: 1/3;
+  margin-top: 5rem;
+}
+
+
+#feature .box-2 {
+  padding: 20px;
+  text-align: center;
+}
+
+
+#feature .box-2 .p-1 {
+  margin-top: 20px;
+  color: #373c42;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#feature .box-2 .p-2 {
+  color: maroon;
+  font-weight: 100;
+}
+
+#feature .box-3 {
+  padding: 20px;
+  text-align: center;
+}
+
+#feature .box-3 .p-1 {
+  margin-top: 20px;
+  color: #373c42;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#feature .box-3 .p-2 {
+  color: maroon;
+  font-weight: 100;
+}
+
+#feature .box-4 {
+  padding: 20px;
+  text-align: center;
+}
+
+#feature .box-4 .p-1 {
+  margin-top: 20px;
+  color: #373c42;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#feature .box-4 .p-2 {
+  color: maroon;
+  font-weight: 100;
+}
+
+#feature .box-5 {
+  padding: 20px;
+  text-align: center;
+}
+
+#feature .box-5 .p-1 {
+  margin-top: 20px;
+  color: #373c42;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#feature .box-5 .p-2 {
+  color: maroon;
+  font-weight: 100;
+}
+
+#feature .box-6 {
+  padding: 20px;
+  text-align: center;
+}
+
+
+#feature .box-6 .p-1 {
+  margin-top: 20px;
+  color: #373c42;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#feature .box-6 .p-2 {
+  color: maroon;
+  font-weight: 100;
+}
+
+#feature .box-7 {
+  padding: 20px;
+  /* background: antiquewhite; */
+  text-align: center;
+}
+
 #Barbers{
   display: block;
 }
@@ -764,10 +878,25 @@ color: mediumaquamarine;
   margin: 20px 0;
   text-align: center;
 }
+
+#Barbers .barber-1 .b-name{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
 #Barbers .barber-2{
   padding: 23px;
   margin: 20px 0;
   text-align: center;
+}
+
+#Barbers .barber-3{
+  padding: 23px;
+  text-align: center;
+}
+
+#footer .llc{
+  grid-column:1/3;
 }
 
 #footer .Inc{

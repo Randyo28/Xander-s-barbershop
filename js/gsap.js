@@ -56,7 +56,7 @@ tlPhotoScroll.fromTo('.barbers', {
 }, {
   opacity:1,
   y: 0,
-  stagger: 1,
+  stagger: 0.5,
 });
 const barberElement = document.querySelector('.barbers');
 
@@ -80,7 +80,7 @@ let serviceScene = new ScrollMagic.Scene({
   }, {
     opacity:1,
     y: 0,
-    stagger: 0.2,
+    stagger: 0.5,
   });
   const barberElement = document.querySelector('.barbers');
 
@@ -89,7 +89,7 @@ let serviceScene = new ScrollMagic.Scene({
   let serviceScene = new ScrollMagic.Scene({
     triggerElement: '.barbers',
     triggerHook: 1,
-    duration: 800 //1800
+    duration: 500 //1800
   })
   .setTween(tlPhotoScroll)
   // .addIndicators()
