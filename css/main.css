@@ -46,7 +46,7 @@ body {
 
 /*   Header-section  */
 .header-sticky {
-  background: black;
+  background: rgba(0, 2, 0, 0.9);
   /*background: white;*/
   position: fixed;
   z-index: 1;
@@ -548,16 +548,20 @@ color: mediumaquamarine;
     text-align: center;
   }
 
+  #footer .llc{
+    grid-column:1/3;
+  }
+  
   #footer .Inc{
     padding-left: 5px;
   }
   #footer .design {
     grid-column: 3/3;
-    padding-left:34px;
   }
   #footer .RO{
     padding-left: 38px;
   }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -654,8 +658,21 @@ color: mediumaquamarine;
     font-size: 75px;
   }
 
-  #feature{
-    display:block;
+  #feature {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+    align-items: center;
+    background: linear-gradient(45deg, grey, transparent);
+    font-family: sans-serifs;
+  }
+  
+  
+  #feature .box-1 {
+    padding: 20px;
+    text-align: center;
+    grid-column: 1/3;
+    margin-top: 5rem;
   }
 
   #Barbers{
@@ -671,16 +688,21 @@ color: mediumaquamarine;
     margin: 20px 0;
     text-align: center;
   }
+
+  #footer .llc{
+    grid-column:1/3;
+  }
+  
   #footer .Inc{
     padding-left: 5px;
   }
   #footer .design {
     grid-column: 3/3;
-    padding-left:20px;
   }
   #footer .RO{
     padding-left: 38px;
   }
+
 
 }
 
