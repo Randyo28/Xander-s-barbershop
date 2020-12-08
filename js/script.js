@@ -34,10 +34,11 @@
 
 
         //Card-button
-const btn = document.querySelector('.btn')
-const btn1 = document.querySelector('.btn1')
-const btn2 = document.querySelector('.btn2')
-const btn3 = document.querySelector('.btn3')
+var btn = document.querySelectorAll('.btn')
+var btn1 = document.querySelector('.btn1')
+var btn2 = document.querySelector('.btn2')
+var btn3 = document.querySelector('.btn3')
+const allBarbers = document.querySelectorAll('.barbers')
 const barberOne = document.querySelector('.barber-1')
 const barberTwo = document.querySelector('.barber-2')
 const barberThree = document.querySelector('.barber-3')
@@ -45,8 +46,31 @@ const div = document.createElement("div")
 const p = document.createElement("p")
 const p2 = document.createElement("p") 
 const h5 = document.createElement("h5")
-var click = false
+
  
+//  allBarbers.forEach((barber) =>{
+//   barber.addEventListener('click', () =>{
+      
+//       if(barber.contains(h5)) {
+//         barber.removeChild(div)
+//         div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
+//         // div.removeChild(p).innerText = '10am - 7pm'
+//         div.removeChild(p2).innerText = 'Day off: Tuesday'
+//         //btn show more
+//         btn.innerHTML = "Learn-More"
+        
+//       } else{
+//         barber.appendChild(div)
+//         // div.classList = "barberHours"
+//         div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
+//         div.appendChild(p2).innerText = 'Day off: Tuesday'
+//         // Btn show less
+//         btn.innerHTML = "Less-Info"
+//         }
+      
+//       console.log(barber)
+//   })
+// })
 
 btn1.addEventListener('click', () => {
             //Barber1 
@@ -62,18 +86,22 @@ btn1.addEventListener('click', () => {
     div.removeChild(p2).innerText = 'Day off: Tuesday'
     //btn show more
     btn1.innerHTML = "Learn-More"
+    btn2.innerHTML = "Learn-More"
+    btn3.innerHTML = "Learn-More"
     
   } else{
     barberOne.appendChild(div)
-    div.classList = "barberHours"
+    // div.classList = "barberHours"
     div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
     div.appendChild(p2).innerText = 'Day off: Tuesday'
     // Btn show less
     btn1.innerHTML = "Less-Info"
-    click == true
+    btn2.innerHTML = "Learn-More"
+    btn3.innerHTML = "Learn-More"
     }
+    
   })
-
+  
 
 btn2.addEventListener('click', () => {
 
@@ -90,15 +118,20 @@ btn2.addEventListener('click', () => {
     div.removeChild(p2).innerText = 'Day off: Wednesday'
     //btn show more
     btn2.innerHTML = "Learn-More"
+    btn1.innerHTML = "Learn-More"
+    btn3.innerHTML = "Learn-More"
+    
+    
     
   } else{
     barberTwo.appendChild(div)
-    div.classList = "barberHours"
+    // div.classList = "barberHours"
     div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
     div.appendChild(p2).innerText = 'Day off: Wednesday'
     // Btn show less
     btn2.innerHTML = "Less-Info"
-   
+    btn1.innerHTML = "Learn-More"
+    btn3.innerHTML = "Learn-More"
   }
 })
 
@@ -115,27 +148,34 @@ btn3.addEventListener('click', () =>{
   
 
   if(barberThree.contains(h5)) {
-    barberThree.removeChild(h5).innerText = 'Hours Available:'
-    barberThree.removeChild(p).innerText = '10am - 7pm'
-    barberThree.removeChild(p2).innerText = 'Day off: Monday'
+    barberThree.removeChild(div)
+    div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
+    // div.removeChild(p).innerText = '10am - 7pm'
+    div.removeChild(p2).innerText = 'Day off: Monday'
     //btn show more
     btn3.innerHTML = "Learn-More"
+    btn1.innerHTML = "Learn-More"
+    btn2.innerHTML = "Learn-More"
     
   } else{
-    barberThree.appendChild(h5).innerText = 'Hours Available:'
-    h5.classList = "barberHours"
-    barberThree.appendChild(p).innerText = '10am - 7pm'
-    //
-    // barberOne.appendChild(newText)
-    barberThree.appendChild(p2).innerText = 'Day off: Monday'
+    barberThree.appendChild(div)
+    // div.classList = "barberHours"
+    div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
+    div.appendChild(p2).innerText = 'Day off: Monday'
     // Btn show less
     btn3.innerHTML = "Less-Info"
+    btn1.innerHTML = "Learn-More"
+    btn2.innerHTML = "Learn-More"
+
+//     requestAnimationFrame(() =>
+//       setTimeout(() => {
+//     div.style.backgroundColor = "yellow";
+//   }, 500)
+// )
    
   }
 })
 
-
-console.log(btn1)
 
 
 

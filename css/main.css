@@ -362,10 +362,11 @@ body {
 
 #Barbers  p{
   margin-top: 10px;
+  font-size:25px;
 }
 
 #Barbers .barberHours{
-  background: grey;
+  transition: all 0.5s ease;
 }
 
 #Barbers .btn{
