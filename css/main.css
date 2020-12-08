@@ -940,7 +940,7 @@ and (-webkit-device-pixel-ratio : 3)
 {
 
   #Top-area {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) cover; 
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url(https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260); 
     position: relative;
     -webkit-background-size: cover !important; 
     -moz-background-size: cover !important; 
