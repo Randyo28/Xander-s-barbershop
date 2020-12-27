@@ -1,37 +1,17 @@
-// const loader = document.querySelector('.loader');
-//
-// const main = document.querySelector('.main');
+           //Nav-bar//
 
-// function init() {
-//   setTimeout(() =>{
-//     loader.style.opacity = 0;
-//   loader.style.display = 'none';
-//     main.style.display = 'block';
-//   setTimeout(() => main.style.opacity = 1, 100);
-// }, 2000);
-// }
-//
-// init();
+  const ham = document.querySelector(".ham-container");
+  const ulMobile = document.getElementById("navbar");
 
-            //Nav-bar//
-
-    function navBar() {
-      var x = document.getElementById("navbar");
-      if (x.style.display === "flex") {
-          x.classList.toggle("change");
-          x.style.display = "none";
-  } else {
-          x.style.display = "flex";
-          }
-        }
-
-
-          //Hamburger-transition
-        function myFunction(x) {
-  x.classList.toggle("change");
-}
-
-
+  ham.addEventListener('click', () => {
+      if (ulMobile.style.width === "0px") {
+      ulMobile.style.width = "172px";
+      ham.classList.add("change");
+    } else {
+      ulMobile.style.width = "0px";
+      ham.classList.remove("change");
+            }
+  })
 
         //Card-button
 var btn = document.querySelectorAll('.btn')
@@ -46,31 +26,6 @@ const div = document.createElement("div")
 const p = document.createElement("p")
 const p2 = document.createElement("p") 
 const h5 = document.createElement("h5")
-
- 
-//  allBarbers.forEach((barber) =>{
-//   barber.addEventListener('click', () =>{
-      
-//       if(barber.contains(h5)) {
-//         barber.removeChild(div)
-//         div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
-//         // div.removeChild(p).innerText = '10am - 7pm'
-//         div.removeChild(p2).innerText = 'Day off: Tuesday'
-//         //btn show more
-//         btn.innerHTML = "Learn-More"
-        
-//       } else{
-//         barber.appendChild(div)
-//         // div.classList = "barberHours"
-//         div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
-//         div.appendChild(p2).innerText = 'Day off: Tuesday'
-//         // Btn show less
-//         btn.innerHTML = "Less-Info"
-//         }
-      
-//       console.log(barber)
-//   })
-// })
 
 btn1.addEventListener('click', () => {
             //Barber1 
@@ -104,13 +59,7 @@ btn1.addEventListener('click', () => {
   
 
 btn2.addEventListener('click', () => {
-
-             //Barber2
-
-  // barberOne.appendChild(p).appendChild(newText)
-  // btn.classList.add("show")
   
-
   if(barberTwo.contains(h5)) {
     barberTwo.removeChild(div)
     div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
@@ -140,13 +89,6 @@ btn2.addEventListener('click', () => {
 
 btn3.addEventListener('click', () =>{
 
-
-           //Barber3
-
-  // barberOne.appendChild(p).appendChild(newText)
-  // btn.classList.add("show")
-  
-
   if(barberThree.contains(h5)) {
     barberThree.removeChild(div)
     div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
@@ -166,18 +108,9 @@ btn3.addEventListener('click', () =>{
     btn3.innerHTML = "Less-Info"
     btn1.innerHTML = "Learn-More"
     btn2.innerHTML = "Learn-More"
-
-//     requestAnimationFrame(() =>
-//       setTimeout(() => {
-//     div.style.backgroundColor = "yellow";
-//   }, 500)
-// )
    
   }
 })
-
-
-
 
             //Google-map//
 
