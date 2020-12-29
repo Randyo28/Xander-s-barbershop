@@ -514,7 +514,7 @@ cursor: pointer;
       right: 1px;
       background-color:rgba(0, 2, 0, 0.9);
       top: 0px;
-      height: 111%;
+      height: 40%;
       transition: all 0.8s ease;
   }
   
@@ -654,7 +654,7 @@ cursor: pointer;
     right: 1px;
     background-color:rgba(0, 2, 0, 0.9);
     top: 0px;
-    height: 111%;
+    height: 40%;
     transition: all 0.8s ease;
   }
   
