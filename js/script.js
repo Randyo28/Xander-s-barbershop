@@ -41,15 +41,10 @@ const h5 = document.createElement("h5")
 
 btn1.addEventListener('click', () => {
             //Barber1 
-           
-  // barberOne.appendChild(p).appendChild(newText)
-  // btn.classList.add("show")
-  
-
+      
   if(barberOne.contains(h5)) {
     barberOne.removeChild(div)
     div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
-    // div.removeChild(p).innerText = '10am - 7pm'
     div.removeChild(p2).innerText = 'Day off: Tuesday'
     //btn show more
     btn1.innerHTML = "Learn-More"
@@ -58,7 +53,6 @@ btn1.addEventListener('click', () => {
     
   } else{
     barberOne.appendChild(div)
-    // div.classList = "barberHours"
     div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
     div.appendChild(p2).innerText = 'Day off: Tuesday'
     // Btn show less
@@ -75,7 +69,6 @@ btn2.addEventListener('click', () => {
   if(barberTwo.contains(h5)) {
     barberTwo.removeChild(div)
     div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
-    // div.removeChild(p).innerText = '10am - 7pm'
     div.removeChild(p2).innerText = 'Day off: Wednesday'
     //btn show more
     btn2.innerHTML = "Learn-More"
@@ -86,7 +79,6 @@ btn2.addEventListener('click', () => {
     
   } else{
     barberTwo.appendChild(div)
-    // div.classList = "barberHours"
     div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
     div.appendChild(p2).innerText = 'Day off: Wednesday'
     // Btn show less
@@ -104,7 +96,6 @@ btn3.addEventListener('click', () =>{
   if(barberThree.contains(h5)) {
     barberThree.removeChild(div)
     div.removeChild(h5).innerText = 'Hours Available: 10am - 7pm'
-    // div.removeChild(p).innerText = '10am - 7pm'
     div.removeChild(p2).innerText = 'Day off: Monday'
     //btn show more
     btn3.innerHTML = "Learn-More"
@@ -113,7 +104,6 @@ btn3.addEventListener('click', () =>{
     
   } else{
     barberThree.appendChild(div)
-    // div.classList = "barberHours"
     div.appendChild(h5).innerText = 'Hours Available: 10am - 7pm'
     div.appendChild(p2).innerText = 'Day off: Monday'
     // Btn show less
@@ -125,7 +115,6 @@ btn3.addEventListener('click', () =>{
 })
 
             //Google-map//
-
 
 function initMap() {
   // The location of Uluru

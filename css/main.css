@@ -14,40 +14,9 @@ body {
   overflow-y: none;
 }
 
-/* .main{
-  display: none;
-  opacity: 0;
-  transition: opacity 2s ease-in-out;
-} */
-
-
-/* Loader-section */
-/* .loader{
-  padding: 200px 500px;
-  font-size: 40px;
-  font-family: 'ZCOOL Kuale', cursive;
-  color: black;
-  opacity:1;
-}
-.loader::after{
-  content: '\2026';
-  display: inline-block;
-  overflow: hidden;
-  vertical-align: center;
-  animation: dots steps(4, end) 2s infinite;
-  width: 0;
-}
-
-@keyframes dots{
-  to{
-      width: 50px;
-  }
- } */
-
 /*   Header-section  */
 .header-sticky {
   background: rgba(0, 2, 0, 0.9);
-  /*background: white;*/
   position: fixed;
   z-index: 1;
   top: 0;
@@ -669,6 +638,7 @@ cursor: pointer;
 
   .nav-logo{
     border-radius: 10px;
+    margin-top: 5px;
   }
 
   .nav-item{
