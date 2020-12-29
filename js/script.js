@@ -1,17 +1,29 @@
-           //Nav-bar//
+           //Nav-bar
 
   const ham = document.querySelector(".ham-container");
   const ulMobile = document.getElementById("navbar");
 
   ham.addEventListener('click', () => {
-      if (ulMobile.style.width === "0px") {
-      ulMobile.style.width = "172px";
-      ham.classList.add("change");
-    } else {
-      ulMobile.style.width = "0px";
-      ham.classList.remove("change");
-            }
+
+    if(ham.classList.contains("change")){
+      console.log('yes')
+      close();
+    } else{
+      open();
+    }
   })
+  
+  //Open NavBar
+  function open() {
+    ulMobile.style.width = "172px";
+    ham.classList.add("change");
+  }
+  //Close Navbar
+  function close() {
+    ulMobile.style.width = "0";
+    ham.classList.remove("change");
+  }
+
 
         //Card-button
 var btn = document.querySelectorAll('.btn')

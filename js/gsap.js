@@ -27,25 +27,6 @@ tl.fromTo('.ham-container',{
 '>-3.5'
 );
 
-tl.fromTo('.name',{
-  opacity:0,
-},{
-  opacity:1,
-},
-'>-1'
-);
-
-
-
-// tl.fromTo('.barbers',{
-//   opacity:0,
-//   y: 50,
-// },{
-//   opacity:1,
-//   y: 0,
-//   stagger: 0.5,
-// });
-
 /* Scroll  Animations */
 if(screen.width < 480) {
   const tlPhotoScroll = new gsap.timeline()

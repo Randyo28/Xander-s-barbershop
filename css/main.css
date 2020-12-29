@@ -437,17 +437,10 @@ color:white;
 #footer .RO{
   padding-left: 107px;
 }
-#footer .randy{
+#footer .name{
 color: dodgerblue;
-}
-#footer .randy:hover{
-  font-size: 25px;
-}
-#footer .ortiz{
-color: mediumaquamarine;
-}
-#footer .ortiz:hover{
-  font-size: 25px;
+text-decoration: none;
+cursor: pointer;
 }
 
 
@@ -528,6 +521,7 @@ color: mediumaquamarine;
 
   .header-sticky{
     display:block;
+    background: none;
   }
 
   .nav-logo{
@@ -535,7 +529,8 @@ color: mediumaquamarine;
   }
 
   .nav-item{
-    padding: 6px 3px;
+    padding: 37px 22px !important;
+    display: block;
   }
 
   .nav-link{
@@ -543,8 +538,15 @@ color: mediumaquamarine;
   }
 
   #navbar{
-    display:none;
-    padding: 10px 0;
+      display: block;
+      padding: 50px 0;
+      width: 0px;
+      position: fixed;
+      right: 1px;
+      background-color:rgba(0, 2, 0, 0.9);
+      top: 0px;
+      height: 111%;
+      transition: all 0.8s ease;
   }
   
   .ham-container {
@@ -561,6 +563,7 @@ color: mediumaquamarine;
     height: 5px;
     background-color: white;
     margin: 6px 0;
+    box-shadow: 1px 3px 13px 5px #000000;
     transition: 0.4s;
   }
 
@@ -664,6 +667,10 @@ color: mediumaquamarine;
     background: none;
   }
 
+  .nav-logo{
+    border-radius: 10px;
+  }
+
   .nav-item{
     padding: 37px 22px !important;
     display: block;
@@ -680,6 +687,7 @@ color: mediumaquamarine;
     height: 111%;
     transition: all 0.8s ease;
   }
+  
 
   .ham-container {
     position: absolute;
@@ -842,7 +850,6 @@ color: mediumaquamarine;
 
 #feature .box-7 {
   padding: 20px;
-  /* background: antiquewhite; */
   text-align: center;
 }
 
